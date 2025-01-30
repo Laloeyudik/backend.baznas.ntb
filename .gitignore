@@ -2,6 +2,7 @@ node_modules
 # Keep environment variables out of version control
 dist
 
-envs/*
+prisma/*
+!prisma/schema.prisma
 
-prisma/seed.ts
+envs/*
